@@ -1,0 +1,10 @@
+prebuilt_jar(
+    name = "zstd-jni",
+    binary_jar = "zstd-jni-1.5.0-4.jar",
+    licenses = [
+        "LICENSE",
+    ],
+    visibility = [
+        "PUBLIC",
+    ],
+)
